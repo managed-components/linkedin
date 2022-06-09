@@ -1,10 +1,16 @@
 {
-  "name": "LinkedIn",
-  "description": "LinkedIn Managed Component 🔥🔥🔥",
+  "name": "LinkedIn Insight",
+  "description": "LinkedIn Insight",
   "namespace": "linkedin",
   "icon": "assets/linkedin.svg",
-  "categories": [],
+  "categories": ["Advertising"],
   "provides": ["events"],
-  "allowCustomFields": true,
-  "permissions": []
+  "allowCustomFields": false,
+  "permissions": [
+    {
+      "permission": "client_fetch",
+      "explanation": "reports attribution data back to LinkedIn servers",
+      "required": true
+    }
+  ]
 }
