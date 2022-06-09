@@ -1,8 +1,8 @@
 {
-  "name": "MC Dynamite",
-  "description": "Totally hawt Managed Component 🔥🔥🔥",
-  "namespace": "mc-dynamite",
-  "icon": "assets/mc-dynamite.svg",
+  "name": "LinkedIn",
+  "description": "LinkedIn Managed Component 🔥🔥🔥",
+  "namespace": "linkedin",
+  "icon": "assets/linkedin.svg",
   "categories": [],
   "provides": ["events"],
   "allowCustomFields": true,
