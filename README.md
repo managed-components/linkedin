@@ -22,7 +22,7 @@ Find out more about Managed Components [here](https://blog.cloudflare.com/zaraz-
 
 ### Partner ID `number` **required**
 
-`pid` The LinkedIn Partner ID is the unique identifier of your LinkedIn Insights tag. [Learn more](https://www.linkedin.com/help/lms/answer/a417869/access-your-linkedin-partner-id?lang=en) on how to find your Partner ID.
+`pid` is the unique identifier of your LinkedIn Insights tag. [Learn more](https://www.linkedin.com/help/lms/answer/a417869/access-your-linkedin-partner-id?lang=en) on how to find your Partner ID.
 
 ### Conversion ID `number`
 
