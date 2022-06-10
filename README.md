@@ -18,6 +18,16 @@ Find out more about Managed Components [here](https://blog.cloudflare.com/zaraz-
 2. Install dependencies with `npm i`
 3. Run unit test watcher with `npm run test:dev`
 
+## 🧱 Fields Description
+
+### Partner ID `number` **required**
+
+`pid` The LinkedIn Partner ID is the unique identifier of your LinkedIn Insights tag. [Learn more](https://www.linkedin.com/help/lms/answer/a417869/access-your-linkedin-partner-id?lang=en) on how to find your Partner ID.
+
+### Conversion ID `number`
+
+`conversionId` is the unique identifier of your conversion.
+
 ## 📝 License
 
 Licensed under the [Apache License](./LICENSE).
