@@ -6,11 +6,10 @@
   "categories": ["Advertising"],
   "provides": ["events"],
   "allowCustomFields": false,
-  "permissions": [
-    {
-      "permission": "client_fetch",
-      "explanation": "reports attribution data back to LinkedIn servers",
+  "permissions": {
+    "client_network_requests": {
+      "explanation": "Reports attribution data back to LinkedIn servers",
       "required": true
     }
-  ]
+  }
 }
