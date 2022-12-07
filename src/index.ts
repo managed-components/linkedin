@@ -17,7 +17,11 @@ const handler = (pid: string) => async (event: MCEvent) => {
 
   if (Object.keys(payload).length) {
     const params = new URLSearchParams(payload).toString()
-    event.client.fetch(`${TRACK_URL}?${params}`)
+    event.client.fetch(`${TRACK_URL}?${params}`, {
+      credentials: 'include',
+      keepalive: true,
+      mode: 'no-cors',
+    })
   }
 }
 
