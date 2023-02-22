@@ -1,6 +1,8 @@
 import { ComponentSettings, Manager, MCEvent } from '@managed-components/types'
 
 const TRACK_URL = 'https://px.ads.linkedin.com/collect/'
+const CLICK_ID_PARAM = 'li_fat_id'
+const ONE_MONTH = 2628000000
 
 // The pid query parameter, when used alone, is a pageview.
 // Together with a conversionId it becomes a conversion event.
@@ -14,6 +16,17 @@ const handler = (pid: string) => async (event: MCEvent) => {
     pid,
     ...event.payload,
   }
+
+  if (event.client.url.searchParams.get(CLICK_ID_PARAM)) {
+    event.client.set(
+      CLICK_ID_PARAM,
+      event.client.url.searchParams.get(CLICK_ID_PARAM),
+      { expiry: ONE_MONTH }
+    )
+  }
+
+  const lifatid = event.client.get(CLICK_ID_PARAM)
+  lifatid && (payload[CLICK_ID_PARAM] = lifatid)
 
   if (Object.keys(payload).length) {
     const params = new URLSearchParams(payload).toString()
