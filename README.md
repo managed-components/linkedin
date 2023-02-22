@@ -3,9 +3,7 @@
 Find out more about Managed Components [here](https://blog.cloudflare.com/zaraz-open-source-managed-components-and-webcm/) for inspiration and motivation details.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Released under the Apache license.](https://img.shields.io/badge/license-apache-blue.svg)](./LICENSE)
@@ -44,11 +42,14 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://github.com/simonabadoiu"><img src="https://avatars.githubusercontent.com/u/1610123?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Simona Badoiu</b></sub></a><br /><a href="https://github.com/managed-components/@managed-components/linkedin/commits?author=simonabadoiu" title="Code">💻</a></td>
-    <td align="center"><a href="https://yoavmoshe.com/about"><img src="https://avatars.githubusercontent.com/u/55081?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Yo'av Moshe</b></sub></a><br /><a href="https://github.com/managed-components/@managed-components/linkedin/commits?author=bjesus" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/jonnyparris"><img src="https://avatars.githubusercontent.com/u/6400000?v=4?s=75" width="75px;" alt=""/><br /><sub><b>Ruskin</b></sub></a><br /><a href="https://github.com/managed-components/@managed-components/linkedin/commits?author=jonnyparris" title="Code">💻</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/simonabadoiu"><img src="https://avatars.githubusercontent.com/u/1610123?v=4?s=75" width="75px;" alt="Simona Badoiu"/><br /><sub><b>Simona Badoiu</b></sub></a><br /><a href="https://github.com/managed-components/linkedin/commits?author=simonabadoiu" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://yoavmoshe.com/about"><img src="https://avatars.githubusercontent.com/u/55081?v=4?s=75" width="75px;" alt="Yo'av Moshe"/><br /><sub><b>Yo'av Moshe</b></sub></a><br /><a href="https://github.com/managed-components/linkedin/commits?author=bjesus" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jonnyparris"><img src="https://avatars.githubusercontent.com/u/6400000?v=4?s=75" width="75px;" alt="Ruskin"/><br /><sub><b>Ruskin</b></sub></a><br /><a href="https://github.com/managed-components/linkedin/commits?author=jonnyparris" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lkostka"><img src="https://avatars.githubusercontent.com/u/112637144?v=4?s=75" width="75px;" alt="lkostka"/><br /><sub><b>lkostka</b></sub></a><br /><a href="https://github.com/managed-components/linkedin/commits?author=lkostka" title="Code">💻</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->

@@ -1,5 +1,5 @@
 {
-  "projectName": "@managed-components/linkedin",
+  "projectName": "linkedin",
   "projectOwner": "managed-components",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -33,6 +33,15 @@
       "name": "Ruskin",
       "avatar_url": "https://avatars.githubusercontent.com/u/6400000?v=4",
       "profile": "https://github.com/jonnyparris",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "lkostka",
+      "name": "lkostka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112637144?v=4",
+      "profile": "https://github.com/lkostka",
       "contributions": [
         "code"
       ]
