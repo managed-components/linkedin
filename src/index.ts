@@ -39,6 +39,5 @@ const handler = (pid: string) => async (event: MCEvent) => {
 }
 
 export default async function (manager: Manager, { pid }: ComponentSettings) {
-  manager.addEventListener('pageview', handler(pid))
   manager.addEventListener('event', handler(pid))
 }
