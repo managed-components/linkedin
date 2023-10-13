@@ -8,7 +8,7 @@
   "allowCustomFields": false,
   "permissions": {
     "client_network_requests": {
-      "explanation": "Reports attribution data back to LinkedIn servers",
+      "description": "Reports attribution data back to LinkedIn servers",
       "required": true
     }
   }
